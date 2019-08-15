@@ -12,4 +12,9 @@ public class EndController {
         return "end!";
     }
 
+    @RequestMapping("/end2")
+    public String end2() {
+        return "end2!";
+    }
+
 }
