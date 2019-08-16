@@ -28,4 +28,9 @@ public class HelloController {
     public String test() {
         return "test!";
     }
+
+    @RequestMapping("/zj")
+    public String zj() {
+        return "zj!";
+    }
 }
