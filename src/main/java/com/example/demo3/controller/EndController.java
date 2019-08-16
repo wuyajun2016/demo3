@@ -9,7 +9,8 @@ public class EndController {
     }
     @RequestMapping("/end")
     public String HelloWorld() {
-        return "end!";
+        String st = "start";
+        return st;
     }
 
     @RequestMapping("/end2")
